@@ -101,7 +101,7 @@ R.K
 };
 
 const Hero = () => (
-  <section id="home" className="pt-24 bg-gradient-to-b from-white to-gray-50">
+  <section id="home" className="pt-24 bg-linear-to-b from-white to-gray-50">
     <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-8 items-center py-16" style={{padding: "15px"}}>
       <div className="md:col-span-7">
         <motion.h2 initial={{ opacity: 0, x: -40 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} className="text-4xl md:text-5xl font-extrabold leading-tight">
